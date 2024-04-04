@@ -24,6 +24,7 @@ def write_csv(file, rows):
         writer.writerow(header)
         writer.writerows(rows)
 
+
 page = 0
 url = f"https://il.indeed.com/jobs?q=it&rbl=תל+אביב+-יפו,+מחוז+תל+אביב&jlid=fd347958ce788d3b&start={page}"
 web.get(url)
