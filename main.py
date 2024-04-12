@@ -110,3 +110,4 @@ while True:
 # print(f"\nFinished scraping successfully {job_listing_num-1} out of {total_listings} listings \n")
 
 # write_csv(file_name, jobs_rows)]
+        
